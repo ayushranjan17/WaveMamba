@@ -34,3 +34,6 @@ The model was evaluated using the Pavia University, Salinas, and Houston dataset
 
 ## Ablation Study
 The ablation study showed that removing any of the core modules—Wavelet Transform, CNN, or HRM Block—resulted in decreased performance, demonstrating the importance of each component in the WaveMamba architecture.
+
+[Download the dataset]([https://drive.google.com/your-drive-link-here](https://drive.google.com/drive/folders/1n1vyY9RoiwI6Be4NyGUx2HflwX_gm9zh?usp=sharing))
+
