@@ -1,6 +1,6 @@
 # WaveMamba: Hyperspectral Image Classification using CNN-Enhanced Multi-Level Wavelet Features Fusion-based Residual Mamba Network
 
-## Project Overview
+## Overview
 This project introduces **WaveMamba**, a novel approach for Hyperspectral Image Classification (HSIC). The key innovation lies in combining **wavelet transforms** with **CNNs** and the **Mamba state space model** to improve both computational efficiency and accuracy in HSIC tasks. The model is designed to capture both spatial and spectral dependencies in hyperspectral data by utilizing **multi-level wavelet decomposition** and CNNs for spectral-spatial feature extraction.
 
 ## Key Features
