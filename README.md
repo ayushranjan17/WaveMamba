@@ -17,7 +17,7 @@ This project introduces **WaveMamba**, a novel approach for Hyperspectral Image 
 ## Model Architecture
 The WaveMamba model architecture is composed of the following:
 - **Factor Analysis (FA)** for dimensionality reduction.
-- **Daubechies Wavelet 2D-CNN** for spectral-spatial feature extraction.
+- **Daubechies Wavelet CNN** for spectral-spatial feature extraction.
 - **HRM Block** for improving classification accuracy through attention-based mechanisms and residual connections.
 - **Softmax Layer** for final classification output.
 
@@ -30,7 +30,7 @@ The WaveMamba model architecture is composed of the following:
 The model was evaluated using the Pavia University, Salinas, and Houston datasets. Key findings include:
 - Optimal learning rate: **0.01**
 - Optimal patch size: **12**
-- The model outperformed state-of-the-art methods like 3DCNN, SSRN, and ViTs.
+- The model outperformed state-of-the-art methods like 3DCNN, CS2DT, and ViTs.
 
 ## Ablation Study
 The ablation study showed that removing any of the core modules—Wavelet Transform, CNN, or HRM Block—resulted in decreased performance, demonstrating the importance of each component in the WaveMamba architecture.
