@@ -4,7 +4,7 @@
 This project introduces **WaveMamba**, a novel approach for Hyperspectral Image Classification (HSIC). The key innovation lies in combining **wavelet transforms** with **CNNs** and the **Mamba state space model** to improve both computational efficiency and accuracy in HSIC tasks. The model is designed to capture both spatial and spectral dependencies in hyperspectral data by utilizing **multi-level wavelet decomposition** and CNNs for spectral-spatial feature extraction.
 
 ## Key Features
-- **Daubechies Wavelet CNN**: This component extracts spectral and spatial features using a four-level discrete wavelet transform (DWT) and CNN layers.
+- **Wavelet CNN**: This component extracts spectral and spatial features using a four-level discrete wavelet transform (DWT) and CNN layers.
 - **Hyperspectral Residual Mamba (HRM) Block**: Incorporates Scalable Self-Attention Mechanisms (SSMs) to handle long-range dependencies and enhance classification performance.
 - **Memory-Efficient**: The model is lightweight and efficient, requiring less data and computational resources.
 - **High Accuracy**: Outperforms traditional CNN and Transformer-based methods on popular hyperspectral datasets.
@@ -17,7 +17,7 @@ This project introduces **WaveMamba**, a novel approach for Hyperspectral Image 
 ## Model Architecture
 The WaveMamba model architecture is composed of the following:
 - **Factor Analysis (FA)** for dimensionality reduction.
-- **Daubechies Wavelet CNN** for spectral-spatial feature extraction.
+- **Wavelet CNN** for spectral-spatial feature extraction.
 - **HRM Block** for improving classification accuracy through attention-based mechanisms and residual connections.
 - **Softmax Layer** for final classification output.
 
